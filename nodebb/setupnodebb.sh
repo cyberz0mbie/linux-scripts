@@ -15,7 +15,7 @@ adduser nodebb
 passwd -f -u nodebb
 mkdir /etc/nodebb/
 cd /etc/nodebb/
-git clone -b v1.7.x https://github.com/NodeBB/NodeBB nodebb
+git clone -b v1.10.x https://github.com/NodeBB/NodeBB nodebb
 cd nodebb
 ./nodebb setup
 echo start
